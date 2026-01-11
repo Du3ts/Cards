@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+img{
+    width: 325px;
+    height: auto;
+    object-fit: scale-down;
+    border-radius: 50px;
+}
+
+body{
+    background-color: #F2F2ED;
+    font-family: 'Delius', cursive;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 10vh;
+}
+
+.card{
+    background-color: white;
+    max-width: 400px;
+    border: 1px solid #F2F2ED;
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    justify-content: center;
+    box-shadow: 3px 3px 15px;
+}
+
+.ship_description{
+    padding: 10px 10px 10px 10px;
+}
+
+.tag{
+    border: 1px solid #93928A;
+    border-radius: 5px;
+    padding: 1px 3px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.descriptor{
+    font-size: 18px;
+    color: black;
+    line-height: 150%;
+}
+
